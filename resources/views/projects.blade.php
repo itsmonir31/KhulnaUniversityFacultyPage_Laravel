@@ -18,7 +18,7 @@
   <div class="margin-t40">
     <x-nav/>
   </div>
-
+  
     <div class="contents">
       <div class="column1"></div>
       <div class="bar2">

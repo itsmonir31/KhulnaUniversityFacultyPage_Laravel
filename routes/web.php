@@ -38,3 +38,32 @@ Route::get('/training', function () {
 Route::get('/job', function () {
     return view('job');
 });
+
+Route::get('/c_offered', function () {
+    return view('c_offered');
+});
+
+Route::get('/c_material', function () {
+    return view('c_material');
+});
+
+Route::get('/publications', function () {
+    return view('publications');
+});
+
+Route::get('/projects', function () {
+    return view('projects');
+});
+
+
+Route::get('/workshop', function () {
+    return view('workshop');
+});
+
+Route::get('/s_thesis', function () {
+    return view('s_thesis');
+});
+
+Route::get('/s_project', function () {
+    return view('s_project');
+});

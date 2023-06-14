@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 .contents {
+    padding: 30px;
     padding-left: 350px;
 }
 .education-item {
