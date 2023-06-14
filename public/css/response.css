@@ -1,0 +1,72 @@
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+@media screen and (max-width:900px)
+{
+    .main ul{
+        float: right;
+    }
+    .main ul li{
+        display: inline-block;
+        margin: 5px;
+        padding: 2px;
+        padding-bottom: 10px;
+    }
+    header{
+        background-image: url(background.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .title h1{
+        top:20%;
+        color: rgb(65, 59, 235);
+        font-size: 35px;
+    }
+    .title h3{
+        top:20%;
+        color: rgb(65, 59, 235);
+        font-size: 35px;
+    }
+    .title h5
+    {
+        top:20%;
+        color: rgb(65, 59, 235);
+        font-size: 35px;
+    }
+    .logo img
+    {
+        float:left;
+        width:120px;
+        margin-left:8px;
+        height:100px;
+    }
+
+    .submenu-1{
+        display:none;
+        top:20%;
+    }
+
+    .main ul li:hover .submenu-1
+    {
+        display: flex;
+        background:transparent;
+        margin-left: -40px;
+        margin-top: 10px;
+        border:1px solid transparent
+    }
+
+    
+    .main ul li:hover .submenu-1 ul
+    {
+        display: block;
+        margin: 8px;
+    }
+
+}

@@ -1,0 +1,66 @@
+.carousel {
+    margin: 20px auto 0px;
+    margin-right: -10px;
+    padding: 0px 0px;
+}
+.carousel .carousel-item {
+    text-align: center;
+    overflow: hidden;
+}
+.carousel .carousel-item h4 {
+    font-family: "Varela Round", sans-serif;
+}
+.carousel .carousel-item img {
+    max-width: 100%;
+    width: 400px;
+    height: 200px;
+}
+.carousel .carousel-item .btn {
+    color: white;
+    border-radius: 0;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+    background: black;
+    padding: 6px 15px;
+    margin-top: 5px;
+}
+.carousel .carousel-item .btn:hover {
+    background: gray;
+}
+.carousel .carousel-item .btn i {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .thumb-wrapper {
+    margin: 0px;
+    border: 1px solid black;
+    text-align: left;
+    background: #fff;
+}
+.carousel .thumb-content {
+    max-width: 75%;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.carousel-indicators {
+    bottom: -25%;
+}
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 20px;
+    height: 10px;
+    border-radius: 0%;
+    margin: 0.3%;
+    border: none;
+}
+.carousel-indicators li {
+    background: #ababab;
+}
+.carousel-indicators li.active {
+    background: #555;
+}

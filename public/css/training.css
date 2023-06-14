@@ -1,0 +1,12 @@
+.column1 {
+    padding-left: 280px;
+    width: 360px;
+}
+
+.column2-cont {
+    display: flex;
+}
+
+.column1 {
+    /* display: inline-block; */
+}

@@ -1,0 +1,38 @@
+.card_mk {
+    width: 260px;
+    margin-left: 100px;
+    display: fixed;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card_mk h3,
+h5,
+h4 {
+    background-color: white;
+    font-family: times new roman;
+}
+
+.card_mk i h5 {
+    line-height: 15px;
+    font-weight: 400;
+    color: gray;
+}
+.hh {
+    line-height: 15px;
+    font-weight: 800;
+    color: black !important;
+}
+.card_mk img {
+    width: 260px;
+}
+
+.c_content {
+    padding: 10px;
+    background-color: white;
+}
+
+.card_mk .hline {
+    height: 1px;
+    background-color: #294a70;
+}

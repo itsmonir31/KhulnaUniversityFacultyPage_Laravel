@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+.contents {
+    padding-left: 350px;
+}
+.education-item {
+    border-left: 1px solid lightgray;
+    position: relative;
+    padding: 32px 24px 8px 45px;
+    margin-left: 35px;
+
+    background-color: transparent;
+}
+.card-title {
+    background-color: transparent;
+}
+.education-item a {
+    font-size: 18px;
+    background-color: transparent !important;
+}
+
+.education-item p {
+    font-size: 15px;
+}
+
+.education-icon {
+    position: absolute;
+}
+
+@media (min-width: 768px) {
+    .education-item {
+        margin-left: 110px;
+    }
+    .contents {
+        padding-left: 350px;
+    }
+}
+.education-item .education-icon {
+    position: absolute;
+    left: -1.5rem;
+    width: 42px;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    background-color: #f5f6fa;
+    /* z-index: 10; */
+}
+
+.education-date {
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .education-item .education-date {
+        position: absolute;
+        left: -10rem;
+        width: 7.5rem;
+        text-align: right;
+    }
+}
+/* 
+.education {
+    width: 95%;
+}
+.education__heading {
+    padding-inline-start: 4rem;
+}
+.education__heading h4 {
+    background-color: transparent;
+    font-size: 3rem;
+    margin-block: 0.5rem;
+}
+.education__content {
+    position: relative;
+    padding: 1rem 1rem 1rem 4rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+.education__content h5 {
+    color: rgba(0, 0, 0, 0.9);
+    background-color: transparent;
+    font-size: 1.5rem;
+    margin-block: 0;
+}
+.education__content p {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0;
+}
+.education__content .year {
+    position: absolute;
+    content: var(--year);
+    width: 2rem;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+    color: white;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    box-shadow: inset 0 0 0 1px white;
+    border: 1px solid #b3b3b3;
+    left: 1rem;
+    top: 0.74rem;
+}
+.education__content:hover {
+    background-color: rgba(230, 230, 230, 0.48);
+    border-radius: 0.25rem;
+}
+.education__content:not(:last-child):before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    background-color: #dedede;
+    left: calc(2rem - 2px);
+    top: 2.74rem;
+    bottom: -0.74rem;
+    z-index: -1;
+} */
