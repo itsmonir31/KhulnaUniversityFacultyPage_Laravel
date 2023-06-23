@@ -20,9 +20,6 @@ Route::get('/overview', function () {
     return view('overview');
 });
 
-Route::get('/nav', function () {
-    return view('x');
-});
 Route::get('/education', function () {
     return view('education');
 });
@@ -66,8 +63,4 @@ Route::get('/s_thesis', function () {
 
 Route::get('/s_project', function () {
     return view('s_project');
-});
-
-Route::get('/modal', function () {
-    return view('modal');
 });
