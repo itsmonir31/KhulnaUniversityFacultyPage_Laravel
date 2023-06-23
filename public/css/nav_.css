@@ -1,3 +1,64 @@
+/* modal css */
+.container_ {
+    width: 500px;
+    margin: 10px auto;
+}
+.submitBtn {
+    background-color: #294a70;
+    color: white;
+}
+.submitBtn:hover {
+    background-color: #f4a024;
+}
+/* .open-modal {
+    background-color: #5cf9d2;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    outline: none;
+    padding: 20px 40px;
+    text-transform: uppercase;
+}
+
+.open-modal:hover {
+    background-color: #bff2e5;
+} */
+.login_form {
+    margin-top: 50px;
+    background-color: transparent;
+}
+.modal {
+    /* background-color: #dbd9d9; */
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -150px;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 10;
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.7);
+}
+
+.close-modal {
+    font-size: 20px;
+    color: #294a70;
+    text-decoration: none;
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.close-modal:hover {
+    text-decoration: none;
+    color: #f4a024;
+}
+
+/* modal css end */
+
 /* Navbar container */
 .navbar_ {
     padding-left: 390px;
@@ -21,7 +82,8 @@
 }
 
 .flt_right {
-    float: right;
+    height: inherit;
+    float: inline-start;
     color: #f4a024 !important;
 }
 

@@ -8,14 +8,16 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card_mk h3,
+h6,
 h5,
 h4 {
     background-color: white;
-    font-family: times new roman;
 }
-
+.teacher_img {
+    z-index: 10;
+}
 .card_mk i h5 {
-    line-height: 15px;
+    line-height: 25px;
     font-weight: 400;
     color: gray;
 }

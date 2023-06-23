@@ -67,3 +67,7 @@ Route::get('/s_thesis', function () {
 Route::get('/s_project', function () {
     return view('s_project');
 });
+
+Route::get('/modal', function () {
+    return view('modal');
+});

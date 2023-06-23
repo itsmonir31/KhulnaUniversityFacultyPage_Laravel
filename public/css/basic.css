@@ -114,3 +114,9 @@ h4 {
     padding-bottom: 15px;
     border-bottom: 1px solid #49688e;
 }
+
+@media only screen and (width < 900px) {
+    .column1 {
+        display: none;
+    }
+}
